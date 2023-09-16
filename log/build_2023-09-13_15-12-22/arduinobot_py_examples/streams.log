@@ -1,0 +1,26 @@
+[3.079s] Invoking command in '/home/farhan/arduinobot_ws/src/arduinobot_py_examples': CMAKE_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:/home/farhan/arduinobot_ws/install/arduinobot_utils:/home/farhan/arduinobot_ws/install/arduinobot_cpp_examples:/home/farhan/arduinobot_ws/install/arduinobot_description:/home/farhan/arduinobot_ws/install/arduinobot_controller PYTHONPATH=/home/farhan/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/farhan/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed
+[3.945s] running egg_info
+[3.947s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[3.947s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[3.948s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[3.948s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[3.948s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[3.953s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.965s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.965s]   warnings.warn(
+[3.976s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.976s] running build
+[3.977s] running build_py
+[3.977s] running install
+[3.977s] running install_lib
+[3.977s] running install_data
+[3.978s] running install_egg_info
+[3.978s] removing '/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[3.979s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[3.979s] running install_scripts
+[4.037s] Installing simple_parameter script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.037s] Installing simple_publisher script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.037s] Installing simple_service_client script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.037s] Installing simple_service_server script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.037s] Installing simple_subscriber script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.039s] writing list of installed files to '/home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log'

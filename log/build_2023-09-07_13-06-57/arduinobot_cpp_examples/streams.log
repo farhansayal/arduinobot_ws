@@ -1,0 +1,16 @@
+[0.046s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.194s] [ 33%] Built target simple_publisher
+[0.206s] [ 66%] Built target simple_subscriber
+[0.217s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[4.302s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:6:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+[4.302s]     6 | using std::placeholders::_1
+[4.302s]       |                            [01;31m[K^[m[K
+[4.303s]       |                            [32m[K;[m[K
+[4.303s]     7 | 
+[4.303s]     8 | [32m[Kclass[m[K SimpleParameter : public rclcpp::Node
+[4.303s]       | [32m[K~~~~~[m[K                       
+[5.028s] gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+[5.029s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+[5.029s] gmake: *** [Makefile:146: all] Error 2
+[5.032s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4

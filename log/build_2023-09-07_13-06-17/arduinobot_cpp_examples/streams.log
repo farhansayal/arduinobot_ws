@@ -1,0 +1,34 @@
+[0.053s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.175s] [ 33%] Built target simple_publisher
+[0.182s] [ 66%] Built target simple_subscriber
+[0.191s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[4.176s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:6:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+[4.177s]     6 | using std::placeholders::_1
+[4.177s]       |                            [01;31m[K^[m[K
+[4.177s]       |                            [32m[K;[m[K
+[4.177s]     7 | 
+[4.177s]     8 | [32m[Kclass[m[K SimpleParameter : public rclcpp::Node
+[4.178s]       | [32m[K~~~~~[m[K                       
+[4.206s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.207s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.207s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.207s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.207s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.207s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.208s]                  from [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:1[m[K:
+[4.208s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParameter::paramChangeCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[4.208s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:29:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_as_int[m[K’ was not declared in this scope
+[4.208s]    29 |                     RCLCPP_INFO_STREAM(get_logger(), "Param simple_int_param changed! New value is "<< [01;31m[Kparam_as_int[m[K());
+[4.208s]       |                                                                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[4.221s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_parameter.cpp:34:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_as_string[m[K’ was not declared in this scope
+[4.221s]    34 |                     RCLCPP_INFO_STREAM(get_logger(), "Param simple_string_param changed! New value is "<<[01;31m[Kparam_as_string[m[K());
+[4.221s]       |                                                                                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.928s] gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+[4.928s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+[4.929s] gmake: *** [Makefile:146: all] Error 2
+[4.931s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4

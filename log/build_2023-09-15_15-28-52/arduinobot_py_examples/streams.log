@@ -1,0 +1,27 @@
+[4.902s] Invoking command in '/home/farhan/arduinobot_ws/src/arduinobot_py_examples': CMAKE_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:/home/farhan/arduinobot_ws/install/arduinobot_utils:/home/farhan/arduinobot_ws/install/arduinobot_cpp_examples:/home/farhan/arduinobot_ws/install/arduinobot_moveit:/home/farhan/arduinobot_ws/install/arduinobot_description:/home/farhan/arduinobot_ws/install/arduinobot_controller PYTHONPATH=/home/farhan/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/farhan/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed
+[6.927s] running egg_info
+[6.932s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[6.950s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.950s]   warnings.warn(
+[6.970s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[6.971s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[6.971s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[6.972s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[6.972s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[6.972s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[6.972s] running build
+[6.973s] running build_py
+[6.973s] running install
+[6.973s] running install_lib
+[6.973s] running install_data
+[6.974s] running install_egg_info
+[6.974s] removing '/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[6.974s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[6.975s] running install_scripts
+[7.127s] Installing simple_parameter script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[7.128s] Installing simple_publisher script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[7.132s] Installing simple_service_client script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[7.133s] Installing simple_service_server script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[7.134s] Installing simple_subscriber script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[7.134s] writing list of installed files to '/home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[7.330s] Invoked command in '/home/farhan/arduinobot_ws/src/arduinobot_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:/home/farhan/arduinobot_ws/install/arduinobot_utils:/home/farhan/arduinobot_ws/install/arduinobot_cpp_examples:/home/farhan/arduinobot_ws/install/arduinobot_moveit:/home/farhan/arduinobot_ws/install/arduinobot_description:/home/farhan/arduinobot_ws/install/arduinobot_controller PYTHONPATH=/home/farhan/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/farhan/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed

@@ -1,0 +1,40 @@
+[0.050s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4
+[0.144s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.645s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.651s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.668s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.913s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.638s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.821s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.822s] -- Configured cppcheck include dirs: 
+[1.822s] -- Configured cppcheck exclude dirs and/or files: 
+[1.823s] -- Added test 'lint_cmake' to check CMake code style
+[1.826s] -- Added test 'uncrustify' to check C / C++ code style
+[1.827s] -- Configured uncrustify additional arguments: 
+[1.827s] -- Added test 'xmllint' to check XML markup files
+[1.830s] -- Configuring done
+[1.862s] -- Generating done
+[1.868s] -- Build files have been written to: /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples
+[1.930s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.937s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.960s] [ 75%] Built target simple_publisher
+[6.294s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_subscriber.cpp:21:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K}[m[K’ token
+[6.296s]    21 | [01;31m[K}[m[K;
+[6.296s]       | [01;31m[K^[m[K
+[6.305s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_subscriber.cpp:[m[K In constructor ‘[01m[KSimpleSubscriber::SimpleSubscriber()[m[K’:
+[6.305s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_subscriber.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+[6.305s]    11 |             [01;31m[Ksub_[m[K = create_subscription<std_msgs::msg::String>("chatter", 10, std::bind(&SimpleSubscriber::msgCallback, this, _1));
+[6.305s]       |             [01;31m[K^~~~[m[K
+[6.393s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_subscriber.cpp:[m[K In member function ‘[01m[Kvoid SimpleSubscriber::msgCallback(const String&) const[m[K’:
+[6.393s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_subscriber.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[6.393s]    17 |         [01;31m[K}[m[K
+[6.393s]       |         [01;31m[K^[m[K
+[10.279s] gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1
+[10.279s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2
+[10.280s] gmake: *** [Makefile:146: all] Error 2
+[10.285s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4

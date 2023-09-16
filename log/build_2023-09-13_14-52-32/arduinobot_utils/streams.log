@@ -1,0 +1,42 @@
+[0.055s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/farhan/arduinobot_ws/src/arduinobot_utils -DCMAKE_INSTALL_PREFIX=/home/farhan/arduinobot_ws/install/arduinobot_utils
+[0.582s] -- The C compiler identification is GNU 11.4.0
+[1.194s] -- The CXX compiler identification is GNU 11.4.0
+[1.280s] -- Detecting C compiler ABI info
+[1.719s] -- Detecting C compiler ABI info - done
+[1.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.770s] -- Detecting C compile features
+[1.778s] -- Detecting C compile features - done
+[1.806s] -- Detecting CXX compiler ABI info
+[2.074s] -- Detecting CXX compiler ABI info - done
+[2.117s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.119s] -- Detecting CXX compile features
+[2.121s] -- Detecting CXX compile features - done
+[2.149s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.880s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.472s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.011s] -- Added test 'lint_cmake' to check CMake code style
+[4.032s] -- Added test 'xmllint' to check XML markup files
+[4.044s] -- Configuring done
+[4.076s] -- Generating done
+[4.079s] -- Build files have been written to: /home/farhan/arduinobot_ws/build/arduinobot_utils
+[4.366s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/farhan/arduinobot_ws/src/arduinobot_utils -DCMAKE_INSTALL_PREFIX=/home/farhan/arduinobot_ws/install/arduinobot_utils
+[4.367s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_utils -- -j4 -l4
+[4.532s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_utils -- -j4 -l4
+[4.637s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/farhan/arduinobot_ws/build/arduinobot_utils
+[4.666s] -- Install configuration: ""
+[4.672s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/package_run_dependencies/arduinobot_utils
+[4.674s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/parent_prefix_path/arduinobot_utils
+[4.677s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.sh
+[4.679s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.dsv
+[4.681s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.sh
+[4.683s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.dsv
+[4.685s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.bash
+[4.688s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.sh
+[4.689s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.zsh
+[4.695s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.dsv
+[4.696s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.dsv
+[4.697s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/packages/arduinobot_utils
+[4.700s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig.cmake
+[4.702s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig-version.cmake
+[4.707s] -- Installing: /home/farhan/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.xml
+[4.742s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/farhan/arduinobot_ws/build/arduinobot_utils

@@ -1,0 +1,37 @@
+[0.032s] Invoking command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[3.487s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.489s]                  from [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:1[m[K:
+[3.489s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::SimplePublisher()[m[K’:
+[3.489s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:15:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logge[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_logger[m[K’?
+[3.489s]    15 |             RCLCPP_INFO([01;31m[Kget_logge[m[K(), "Publishing at 1 Hz");
+[3.489s]       |                         [01;31m[K^~~~~~~~~[m[K
+[3.489s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:15:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.489s]    15 |             [01;31m[KRCLCPP_INFO[m[K(get_logge(), "Publishing at 1 Hz");
+[3.490s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.490s]    15 |             [01;31m[KRCLCPP_INFO[m[K(get_logge(), "Publishing at 1 Hz");
+[3.490s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:15:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.490s]    15 |             [01;31m[KRCLCPP_INFO[m[K(get_logge(), "Publishing at 1 Hz");
+[3.491s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.491s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.491s]    15 |             [01;31m[KRCLCPP_INFO[m[K(get_logge(), "Publishing at 1 Hz");
+[3.491s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.491s] [01m[K/home/farhan/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_publisher.cpp:15:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.491s]    15 |             [01;31m[KRCLCPP_INFO[m[K(get_logge(), "Publishing at 1 Hz");
+[3.491s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.630s] gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+[4.630s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisher.dir/all] Error 2
+[4.631s] gmake: *** [Makefile:146: all] Error 2
+[4.633s] Invoked command in '/home/farhan/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farhan/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4

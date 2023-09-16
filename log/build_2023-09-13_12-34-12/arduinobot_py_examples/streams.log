@@ -1,0 +1,26 @@
+[2.352s] Invoking command in '/home/farhan/arduinobot_ws/src/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/farhan/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/farhan/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/farhan/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed
+[3.633s] running egg_info
+[3.635s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[3.635s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[3.636s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[3.636s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[3.637s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[3.650s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.652s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.653s] running build
+[3.653s] running build_py
+[3.654s] running install
+[3.654s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.660s]   warnings.warn(
+[3.660s] running install_lib
+[3.669s] running install_data
+[3.671s] running install_egg_info
+[3.674s] removing '/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[3.684s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[3.692s] running install_scripts
+[3.840s] Installing simple_parameter script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.842s] Installing simple_publisher script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.843s] Installing simple_service_server script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.844s] Installing simple_subscriber script to /home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[3.845s] writing list of installed files to '/home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[4.002s] Invoked command in '/home/farhan/arduinobot_ws/src/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/farhan/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/farhan/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/farhan/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/farhan/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/farhan/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/farhan/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed
